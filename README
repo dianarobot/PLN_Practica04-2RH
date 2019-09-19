@@ -1,0 +1,48 @@
+# Práctica 4-2
+Este es el archivo README de la práctica 4-2.
+En este repositorio se encuentran los archivos requeridos para la práctica de Hiponimia.
+Los archivos directed_graph.py y prueba.txt no son utilizados durante la ejecución.
+
+En el archivo relaciones.py se realiza lo siguiente:
+*getAbstracts: Obtiene los resúmenes que contengan todas las palabras clave ingresadas.
+
+*tokenizeSentence: Divide el párrafo por oraciones y elimina expresiones entre paréntesis.
+
+*defineHomonimia: Divide a la oración en dos partes (sustantivos antes de las palabras específicas de la expresión regular y sustantivos después de las palabras específicas de la expresión regular), obtiene los sustantivos y agrega las relaciones de homonimia.
+
+*getNodes: Obtiene la lista de elementos involucrados en las relaciones sin repetirse
+
+*printGraph: Se encarga de crear y mostrar el grafo.
+
+*getRelacionesHiponimia: Imprime los elementos, relaciones, número de elementos, número de relaciones y muestra el grafo dirigido.
+
+### Prerequisitos
+
+*Matplotlib
+	pip install matplotlib
+
+*Networkx
+	pip install networkx
+
+*Spacy
+	pip install -U spacy
+	python -m spacy download en_core_web_sm
+	python -m spacy download es_core_news_md
+	python -m spacy download es_core_news_sm
+
+### Instalar
+Aquí van las instrucciones de instalación del proyecto, de modo que
+alguien más lo pueda ejecutar sin ayuda del desarrollador.
+
+### Ejecutar Ejercicio en Consola
+python relaciones.py matemática
+
+python relaciones.py matemática geometría
+
+*Nota: Se incluyeron las imágenes obtenidas al ejecutar el programa con la palabra matemática y con las palabras matemática y geometría.
+1)GrafoMatemática.png
+2)GrafoMatemáticaGeometría.png
+
+
+## Autor
+* **Diana Rocha Botello** - *Práctica 4-2* - [Repositorio](https://github.com/dianarobot)
